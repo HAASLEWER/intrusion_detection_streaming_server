@@ -153,3 +153,4 @@ the size to a multiple of 2, omit B-Frames and force a raw video stream:
 ```
 ffmpeg -i in.mp4 -f mpeg1video -vf "crop=iw-mod(iw\,2):ih-mod(ih\,2)" -b 0 out.mpg
 ```
+# intrusion_detection_streaming_server
